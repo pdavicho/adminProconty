@@ -1,0 +1,155 @@
+#Rows which start with '#' are treated as a commented row 
+# 
+
+#Created time:,"Wed, 22-Mar-2023 10:37:53"
+#Version -11.4 
+
+# 
+# 
+# 
+
+#Start  - Please do not modify or change this line 
+
+#Section Start - Network Address - Please do not modify or change this line 
+#Explanation for the Column Names 
+# 
+#Name                  - Name of the Address 
+#Domain                - Domains for the Address to be created 
+#Description           - Description for Address 
+#Type                  - Type of the Address. Values can be Network, IPRange or Host 
+#IP Address            - Ip Address(IPv4/IPv6) of the individual host. This field with 'Type' as Host or Network. It can be wildcard ip as well 
+#Subnet Mask/Prefix           - Subnet mask/prefix provided for the IP Address((IPv4/IPv6)) provided in previous column when Type is selected as Network 
+#IP Range Min          - Minimum IP(IPv4) Range in case range is provided. This should be provided when Type is Range 
+#IP Range Max          - Maximum IP(IPv4) Range in case range is provided. This should be provided when Type is Range 
+#Host                  - Host Name of the host address. This should be provided when Type is Host. This field will be ignored if IP Address is provided  
+#Wildcard Mask         - Wildcard mask IP address (IPV4/IPV6) 
+#Address Groups       - Provide the Address Groups for the Address to be created. 
+#                           If Address Group is not present it would be created. 
+#                           More than one Address Groups should be seperated by '|' 
+#Metadata   - Add metadata with Logical Operatos to your Address. 
+#DnsAddressType        - Type of the DNS Address. Values can be ipv4-only or ipv6only 
+# 
+#Name, Description, Type, IP Address, Subnet Mask/Prefix, IP Range Min, IP Range Max, Host, Wildcard Mask, Address Groups, Metadata, DnsAddressType, Domain 
+Host_128.116.131.60,"CRQ102239",Host,128.116.131.60,,,,,,,,,,Global/FW_ATLAS
+Host_124.221.190.104,"CRQ102239",Host,124.221.190.104,,,,,,,,,,Global/FW_ATLAS
+Host_203.122.46.42,"CRQ102239",Host,203.122.46.42,,,,,,,,,,Global/FW_ATLAS
+Host_192.185.4.29,"CRQ102239",Host,192.185.4.29,,,,,,,,,,Global/FW_ATLAS
+Host_203.206.188.109,"CRQ102239",Host,203.206.188.109,,,,,,,,,,Global/FW_ATLAS
+Host_107.180.103.185,"CRQ102239",Host,107.180.103.185,,,,,,,,,,Global/FW_ATLAS
+Host_46.33.220.45,"CRQ102239",Host,46.33.220.45,,,,,,,,,,Global/FW_ATLAS
+Host_38.125.205.43,"CRQ102239",Host,38.125.205.43,,,,,,,,,,Global/FW_ATLAS
+Host_150.158.81.28,"CRQ102239",Host,150.158.81.28,,,,,,,,,,Global/FW_ATLAS
+Host_167.99.32.14,"CRQ102239",Host,167.99.32.14,,,,,,,,,,Global/FW_ATLAS
+Host_65.9.83.77,"CRQ102239",Host,65.9.83.77,,,,,,,,,,Global/FW_ATLAS
+Host_27.124.17.222,"CRQ102239",Host,27.124.17.222,,,,,,,,,,Global/FW_ATLAS
+Host_88.218.193.76,"CRQ102239",Host,88.218.193.76,,,,,,,,,,Global/FW_ATLAS
+Host_103.56.114.69,"CRQ102239",Host,103.56.114.69,,,,,,,,,,Global/FW_ATLAS
+Host_8.214.122.199,"CRQ102239",Host,8.214.122.199,,,,,,,,,,Global/FW_ATLAS
+Host_27.124.3.96,"CRQ102239",Host,27.124.3.96,,,,,,,,,,Global/FW_ATLAS
+Host_182.226.135.91,"CRQ102239",Host,182.226.135.91,,,,,,,,,,Global/FW_ATLAS
+Host_217.13.211.152,"CRQ102239",Host,217.13.211.152,,,,,,,,,,Global/FW_ATLAS
+Host_196.201.229.2,"CRQ102239",Host,196.201.229.2,,,,,,,,,,Global/FW_ATLAS
+Host_118.69.71.109,"CRQ102239",Host,118.69.71.109,,,,,,,,,,Global/FW_ATLAS
+Host_50.240.206.198,"CRQ102239",Host,50.240.206.198,,,,,,,,,,Global/FW_ATLAS
+Host_116.98.161.63,"CRQ102239",Host,116.98.161.63,,,,,,,,,,Global/FW_ATLAS
+Host_23.94.100.176,"CRQ102239",Host,23.94.100.176,,,,,,,,,,Global/FW_ATLAS
+Host_141.145.198.71,"CRQ102239",Host,141.145.198.71,,,,,,,,,,Global/FW_ATLAS
+Host_145.239.90.216,"CRQ102239",Host,145.239.90.216,,,,,,,,,,Global/FW_ATLAS
+Host_156.67.210.131,"CRQ102239",Host,156.67.210.131,,,,,,,,,,Global/FW_ATLAS
+Host_85.31.46.45,"CRQ102239",Host,85.31.46.45,,,,,,,,,,Global/FW_ATLAS
+Host_45.80.64.230,"CRQ102239",Host,45.80.64.230,,,,,,,,,,Global/FW_ATLAS
+Host_156.234.191.173,"CRQ102239",Host,156.234.191.173,,,,,,,,,,Global/FW_ATLAS
+Host_104.225.250.174,"CRQ102239",Host,104.225.250.174,,,,,,,,,,Global/FW_ATLAS
+Host_45.157.150.162,"CRQ102239",Host,45.157.150.162,,,,,,,,,,Global/FW_ATLAS
+Host_188.166.118.217,"CRQ102239",Host,188.166.118.217,,,,,,,,,,Global/FW_ATLAS
+Host_196.221.37.199,"CRQ102239",Host,196.221.37.199,,,,,,,,,,Global/FW_ATLAS
+Host_192.241.208.224,"CRQ102239",Host,192.241.208.224,,,,,,,,,,Global/FW_ATLAS
+Host_103.102.42.42,"CRQ102239",Host,103.102.42.42,,,,,,,,,,Global/FW_ATLAS
+Host_52.154.75.136,"CRQ102239",Host,52.154.75.136,,,,,,,,,,Global/FW_ATLAS
+Host_41.66.217.101,"CRQ102239",Host,41.66.217.101,,,,,,,,,,Global/FW_ATLAS
+Host_139.59.122.125,"CRQ102239",Host,139.59.122.125,,,,,,,,,,Global/FW_ATLAS
+Host_167.172.150.24,"CRQ102239",Host,167.172.150.24,,,,,,,,,,Global/FW_ATLAS
+Host_138.68.226.210,"CRQ102239",Host,138.68.226.210,,,,,,,,,,Global/FW_ATLAS
+Host_36.73.81.20,"CRQ102239",Host,36.73.81.20,,,,,,,,,,Global/FW_ATLAS
+Host_167.114.67.95,"CRQ102239",Host,167.114.67.95,,,,,,,,,,Global/FW_ATLAS
+Host_192.241.220.240,"CRQ102239",Host,192.241.220.240,,,,,,,,,,Global/FW_ATLAS
+Host_201.184.124.220,"CRQ102239",Host,201.184.124.220,,,,,,,,,,Global/FW_ATLAS
+Host_194.165.16.71,"CRQ102239",Host,194.165.16.71,,,,,,,,,,Global/FW_ATLAS
+Host_133.130.99.35,"CRQ102239",Host,133.130.99.35,,,,,,,,,,Global/FW_ATLAS
+Host_112.171.39.240,"CRQ102239",Host,112.171.39.240,,,,,,,,,,Global/FW_ATLAS
+Host_219.78.72.195,"CRQ102239",Host,219.78.72.195,,,,,,,,,,Global/FW_ATLAS
+Host_1.163.52.52,"CRQ102239",Host,1.163.52.52,,,,,,,,,,Global/FW_ATLAS
+Host_138.68.78.78,"CRQ102239",Host,138.68.78.78,,,,,,,,,,Global/FW_ATLAS
+Host_192.241.219.197,"CRQ102239",Host,192.241.219.197,,,,,,,,,,Global/FW_ATLAS
+Host_184.15.25.249,"CRQ102239",Host,184.15.25.249,,,,,,,,,,Global/FW_ATLAS
+Host_143.198.60.41,"CRQ102239",Host,143.198.60.41,,,,,,,,,,Global/FW_ATLAS
+Host_20.239.69.124,"CRQ102239",Host,20.239.69.124,,,,,,,,,,Global/FW_ATLAS
+Host_71.17.149.4,"CRQ102239",Host,71.17.149.4,,,,,,,,,,Global/FW_ATLAS
+Host_67.205.174.64,"CRQ102239",Host,67.205.174.64,,,,,,,,,,Global/FW_ATLAS
+Host_189.8.29.6,"CRQ102239",Host,189.8.29.6,,,,,,,,,,Global/FW_ATLAS
+Host_177.69.237.60,"CRQ102239",Host,177.69.237.60,,,,,,,,,,Global/FW_ATLAS
+Host_173.82.235.128,"CRQ102239",Host,173.82.235.128,,,,,,,,,,Global/FW_ATLAS
+Host_103.161.236.6,"CRQ102239",Host,103.161.236.6,,,,,,,,,,Global/FW_ATLAS
+Host_5.26.200.64,"CRQ102239",Host,5.26.200.64,,,,,,,,,,Global/FW_ATLAS
+Host_180.35.171.237,"CRQ102239",Host,180.35.171.237,,,,,,,,,,Global/FW_ATLAS
+Host_142.93.135.234,"CRQ102239",Host,142.93.135.234,,,,,,,,,,Global/FW_ATLAS
+Host_192.241.219.220,"CRQ102239",Host,192.241.219.220,,,,,,,,,,Global/FW_ATLAS
+Host_181.121.103.228,"CRQ102239",Host,181.121.103.228,,,,,,,,,,Global/FW_ATLAS
+Host_159.65.218.99,"CRQ102239",Host,159.65.218.99,,,,,,,,,,Global/FW_ATLAS
+Host_198.12.85.154,"CRQ102239",Host,198.12.85.154,,,,,,,,,,Global/FW_ATLAS
+Host_104.177.34.102,"CRQ102239",Host,104.177.34.102,,,,,,,,,,Global/FW_ATLAS
+Host_60.220.185.22,"CRQ102239",Host,60.220.185.22,,,,,,,,,,Global/FW_ATLAS
+Host_220.128.228.235,"CRQ102239",Host,220.128.228.235,,,,,,,,,,Global/FW_ATLAS
+Host_192.241.207.109,"CRQ102239",Host,192.241.207.109,,,,,,,,,,Global/FW_ATLAS
+Host_147.182.174.140,"CRQ102239",Host,147.182.174.140,,,,,,,,,,Global/FW_ATLAS
+Host_91.191.209.202,"CRQ102239",Host,91.191.209.202,,,,,,,,,,Global/FW_ATLAS
+Host_43.154.228.54,"CRQ102239",Host,43.154.228.54,,,,,,,,,,Global/FW_ATLAS
+Host_180.49.192.10,"CRQ102239",Host,180.49.192.10,,,,,,,,,,Global/FW_ATLAS
+Host_178.33.182.8,"CRQ102239",Host,178.33.182.8,,,,,,,,,,Global/FW_ATLAS
+Host_179.43.145.74,"CRQ102239",Host,179.43.145.74,,,,,,,,,,Global/FW_ATLAS
+Host_80.87.206.236,"CRQ102239",Host,80.87.206.236,,,,,,,,,,Global/FW_ATLAS
+Host_122.168.113.202,"CRQ102239",Host,122.168.113.202,,,,,,,,,,Global/FW_ATLAS
+Host_152.32.209.140,"CRQ102239",Host,152.32.209.140,,,,,,,,,,Global/FW_ATLAS
+Host_196.205.172.245,"CRQ102239",Host,196.205.172.245,,,,,,,,,,Global/FW_ATLAS
+Host_185.144.200.214,"CRQ102239",Host,185.144.200.214,,,,,,,,,,Global/FW_ATLAS
+Host_197.159.66.211,"CRQ102239",Host,197.159.66.211,,,,,,,,,,Global/FW_ATLAS
+Host_154.92.22.108,"CRQ102239",Host,154.92.22.108,,,,,,,,,,Global/FW_ATLAS
+Host_91.172.5.104,"CRQ102239",Host,91.172.5.104,,,,,,,,,,Global/FW_ATLAS
+Host_94.139.166.33,"CRQ102239",Host,94.139.166.33,,,,,,,,,,Global/FW_ATLAS
+Host_198.54.128.102,"CRQ102239",Host,198.54.128.102,,,,,,,,,,Global/FW_ATLAS
+Host_147.182.218.64,"CRQ102239",Host,147.182.218.64,,,,,,,,,,Global/FW_ATLAS
+Host_185.228.133.5,"CRQ102239",Host,185.228.133.5,,,,,,,,,,Global/FW_ATLAS
+Host_209.159.199.246,"CRQ102239",Host,209.159.199.246,,,,,,,,,,Global/FW_ATLAS
+Host_81.161.229.6,"CRQ102239",Host,81.161.229.6,,,,,,,,,,Global/FW_ATLAS
+Host_180.168.2.154,"CRQ102239",Host,180.168.2.154,,,,,,,,,,Global/FW_ATLAS
+Host_181.45.90.188,"CRQ102239",Host,181.45.90.188,,,,,,,,,,Global/FW_ATLAS
+Host_222.113.84.214,"CRQ102239",Host,222.113.84.214,,,,,,,,,,Global/FW_ATLAS
+Host_162.215.1.202,"CRQ102239",Host,162.215.1.202,,,,,,,,,,Global/FW_ATLAS
+Host_79.238.55.168,"CRQ102239",Host,79.238.55.168,,,,,,,,,,Global/FW_ATLAS
+Host_51.178.90.17,"CRQ102239",Host,51.178.90.17,,,,,,,,,,Global/FW_ATLAS
+Host_43.156.13.103,"CRQ102239",Host,43.156.13.103,,,,,,,,,,Global/FW_ATLAS
+Host_178.49.141.172,"CRQ102239",Host,178.49.141.172,,,,,,,,,,Global/FW_ATLAS
+Host_192.241.216.126,"CRQ102239",Host,192.241.216.126,,,,,,,,,,Global/FW_ATLAS
+Host_92.119.231.13,"CRQ102239",Host,92.119.231.13,,,,,,,,,,Global/FW_ATLAS
+Host_41.73.132.4,"CRQ102239",Host,41.73.132.4,,,,,,,,,,Global/FW_ATLAS
+Host_47.36.108.25,"CRQ102239",Host,47.36.108.25,,,,,,,,,,Global/FW_ATLAS
+Host_186.209.77.238,"CRQ102239",Host,186.209.77.238,,,,,,,,,,Global/FW_ATLAS
+Host_64.235.46.9,"CRQ102239",Host,64.235.46.9,,,,,,,,,,Global/FW_ATLAS
+Host_20.119.63.63,"CRQ102239",Host,20.119.63.63,,,,,,,,,,Global/FW_ATLAS
+Host_159.223.21.48,"CRQ102239",Host,159.223.21.48,,,,,,,,,,Global/FW_ATLAS
+Host_103.146.12.136,"CRQ102239",Host,103.146.12.136,,,,,,,,,,Global/FW_ATLAS
+Host_68.183.233.64,"CRQ102239",Host,68.183.233.64,,,,,,,,,,Global/FW_ATLAS
+Host_189.50.97.12,"CRQ102239",Host,189.50.97.12,,,,,,,,,,Global/FW_ATLAS
+Host_23.225.191.123,"CRQ102239",Host,23.225.191.123,,,,,,,,,,Global/FW_ATLAS
+Host_182.253.115.229,"CRQ102239",Host,182.253.115.229,,,,,,,,,,Global/FW_ATLAS
+Host_200.42.176.235,"CRQ102239",Host,200.42.176.235,,,,,,,,,,Global/FW_ATLAS
+Host_51.83.73.37,"CRQ102239",Host,51.83.73.37,,,,,,,,,,Global/FW_ATLAS
+Host_179.107.104.36,"CRQ102239",Host,179.107.104.36,,,,,,,,,,Global/FW_ATLAS
+Host_163.197.181.215,"CRQ102239",Host,163.197.181.215,,,,,,,,,,Global/FW_ATLAS
+Host_165.22.54.154,"CRQ102239",Host,165.22.54.154,,,,,,,,,,Global/FW_ATLAS
+Host_122.3.192.83,"CRQ102239",Host,122.3.192.83,,,,,,,,,,Global/FW_ATLAS
+Host_80.91.223.117,"CRQ102239",Host,80.91.223.117,,,,,,,,,,Global/FW_ATLAS
+Host_103.71.67.28,"CRQ102239",Host,103.71.67.28,,,,,,,,,,Global/FW_ATLAS
+
+#Section End - Network Address - Please do not modify or change this line 
+#End  - Please do not modify or change this line
